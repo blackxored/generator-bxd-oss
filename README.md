@@ -161,7 +161,7 @@ Contributions of any kind welcome!
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20generator-bxd-oss%20by%20%40blackxored%20https%3A%2F%2Fgithub.com%2Fblackxored%2Fgenerator-bxd-oss%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/blackxored/generator-bxd-oss.svg?style=social
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
-[all-contributors]: https://github.com/kentcdodds/all-c
+[all-contributors]: https://github.com/kentcdodds/all-contributors
 [semver]: http://semver.org/
 [releases]: https://github.com/blackxored/generator-bxd-oss/releases
 [commit-convention]: https://www.npmjs.com/package/@commitlint/config-angular

@@ -186,7 +186,7 @@ Contributions of any kind welcome!
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20<%= moduleName %>%20by%20%40<%= username %>%20https%3A%2F%2Fgithub.com%2F<%= username %>%2F<%= moduleName %>%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/<%= username %>/<%= moduleName %>.svg?style=social
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
-[all-contributors]: https://github.com/kentcdodds/all-c
+[all-contributors]: https://github.com/kentcdodds/all-contributors
 [semver]: http://semver.org/
 [releases]: https://github.com/<%= username %>/<%= moduleName %>/releases
 [commit-convention]: https://www.npmjs.com/package/@commitlint/config-angular
