@@ -174,7 +174,7 @@ Contributions of any kind welcome!
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
-[contributing]: https://github.com/<%= username %>/<%= moduleName %>/blob/master/CONTRIBUTING.md)
+[contributing]: https://github.com/<%= username %>/<%= moduleName %>/blob/master/CONTRIBUTING.md
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/<%= username %>/<%= moduleName %>/blob/master/CODE_OF_CONDUCT.md
 [github-watch-badge]: https://img.shields.io/github/watchers/<%= username %>/<%= moduleName %>.svg?style=social
