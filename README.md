@@ -82,6 +82,11 @@ remember to unlink it after!).
 
 ## Versioning
 
+We use [SemVer][semver] for versioning. In addition, it's automatic via
+[semantic-release][semantic-release], and our [commit convention][commit-convention].
+
+For the versions available, see the [Releases][releases] on this repository.
+
 ## Style guide
 
 We base our code style on [AirBnB's style guide][airbnb-style] and we check with
@@ -157,4 +162,6 @@ Contributions of any kind welcome!
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/blackxored/generator-bxd-oss.svg?style=social
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-c
-[tags]: https://github.com/blackxored/generator-bxd-oss/tags
+[semver]: http://semver.org/
+[releases]: https://github.com/blackxored/generator-bxd-oss/releases
+[commit-convention]: https://www.npmjs.com/package/@commitlint/config-angular

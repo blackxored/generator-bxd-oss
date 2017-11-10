@@ -91,8 +91,10 @@ Add additional notes on how to deploy or publish this package.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions 
-available, see the [link to tags on this repository][tags].
+We use [SemVer][semver] for versioning. In addition, it's automatic via
+[semantic-release][semantic-release], and our [commit convention][commit-convention].
+
+For the versions available, see the [Releases][releases] on this repository.
 
 ## Configuration
 
@@ -185,4 +187,7 @@ Contributions of any kind welcome!
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/<%= username %>/<%= moduleName %>.svg?style=social
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-c
-[tags]: https://github.com/<%= username %>/<%= moduleName %>/tags
+[semver]: http://semver.org/
+[releases]: https://github.com/<%= username %>/<%= moduleName %>/releases
+[commit-convention]: https://www.npmjs.com/package/@commitlint/config-angular
+
