@@ -1,0 +1,4 @@
+- [x] Documentation files
+- [x] Editor config
+- [ ] Babel support
+- [ ] Flow support (behind option?)

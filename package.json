@@ -1,0 +1,29 @@
+{
+  "name": "generator-bxd-oss",
+  "version": "1.0.0",
+  "description": "A generator for my open source projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackxored/generator-bxd-oss.git"
+  },
+  "keywords": [
+    "open source",
+    "blackxored",
+    "yeoman-generator"
+  ],
+  "author": "Adrian Perez <adrian@adrianperez.org> (https://adrianperez.codes/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackxored/generator-bxd-oss/issues"
+  },
+  "homepage": "https://github.com/blackxored/generator-bxd-oss#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "lodash.kebabcase": "4.1.1",
+    "yeoman-generator": "1.0.0"
+  }
+}
