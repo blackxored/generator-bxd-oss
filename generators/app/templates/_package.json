@@ -23,6 +23,7 @@
   },
   "lint-staged": {
     "*.js": [
+      "eslint --fix",
       "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80",
       "git add",
       "jest --bail --findRelatedTests"
