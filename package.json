@@ -10,7 +10,14 @@
   "keywords": [
     "open source",
     "blackxored",
-    "yeoman-generator"
+    "yeoman-generator",
+    "semantic-release",
+    "babel",
+    "webpack",
+    "travis",
+    "commitizen",
+    "commitlint",
+    "jest"
   ],
   "engines": {
     "node": ">= 6",
