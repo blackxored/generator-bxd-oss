@@ -1,10 +1,13 @@
 const Generator = require('yeoman-generator');
 const kebabCase = require('lodash.kebabcase');
 const chalk = require('chalk');
+const sortPackageJson = require('sort-package-json');
 
 module.exports = class extends Generator {
   initializing() {
-    this.log(`\nWelcome to ${chalk.greenBright("blackxored's")} OSS generator!\n`);
+    this.log(
+      `\nWelcome to ${chalk.greenBright("blackxored's")} OSS generator!\n`
+    );
     const done = this.async();
     return this.user.github.username((err, username) => {
       this.githubUsername = username;
@@ -22,7 +25,7 @@ module.exports = class extends Generator {
       },
       {
         name: 'tagLine',
-        message: "What's your project's tagline?"
+        message: "What's your project's tagline?",
       },
       {
         name: 'username',
@@ -40,6 +43,12 @@ module.exports = class extends Generator {
         default: this.user.git.email(),
         store: true,
       },
+      {
+        type: 'confirm',
+        name: 'umdBuild',
+        message: 'Do you want to release a UMD build (for the browser)?',
+        default: false,
+      }
     ]).then(props => {
       this.props = props;
 
@@ -58,7 +67,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       [`${this.templatePath()}/**`],
       this.destinationPath(),
-      this.props,
+      this.props
     );
 
     mv('gitignore', '.gitignore');
@@ -66,7 +75,14 @@ module.exports = class extends Generator {
     mv('eslintrc.js', '.eslintrc.js');
     mv('editorconfig', '.editorconfig');
     // TODO: mv('travis.yml', '.travis.yml');
+
     mv('_package.json', 'package.json');
+    // sort package.json and remove whitespace
+    const pkgJsonPath = this.destinationPath('package.json');
+    this.fs.write(
+      pkgJsonPath,
+      JSON.stringify(sortPackageJson(this.fs.readJSON(pkgJsonPath)), null, 2)
+    );
     mv('all-contributorsrc', '.all-contributorsrc');
     mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md');
     mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md');

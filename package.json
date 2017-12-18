@@ -52,6 +52,7 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "lodash.kebabcase": "4.1.1",
+    "sort-package-json": "^1.7.1",
     "yeoman-generator": "1.0.0"
   },
   "devDependencies": {
@@ -63,8 +64,8 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.4.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-prettier": "^2.2.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^4.1.3",
