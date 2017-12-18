@@ -27,8 +27,8 @@
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "lint": "eslint",
-    "add-contributor": "all-contributors add",
-    "generate-contributors": "all-contributors generate",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
     "test": "jest",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },

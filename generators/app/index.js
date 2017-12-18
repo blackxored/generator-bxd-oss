@@ -80,7 +80,7 @@ module.exports = class extends Generator {
   end() {
     this.spawnCommand('npm', [
       'run',
-      'add-contributor',
+      'contributors:add',
       this.props.username,
       'code,doc,infra,test',
     ]);

@@ -15,8 +15,8 @@
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "flow": "flow",
     "lint": "eslint",
-    "add-contributor": "all-contributors add",
-    "generate-contributors": "all-contributors generate",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
     "build": "exit 0",
     "test": "jest",
     "prettier:js": "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80 \"src/**/*.js\" \"!**/dist/**\""
