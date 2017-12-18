@@ -48,8 +48,8 @@
     "yeoman-generator": "1.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^4.2.2",
-    "@commitlint/config-angular": "^3.1.1",
+    "@commitlint/cli": "^5.2.5",
+    "@commitlint/config-conventional": "^5.2.3",
     "all-contributors-cli": "^4.6.0",
     "commitizen": "^2.9.6",
     "eslint": "^4.6.1",

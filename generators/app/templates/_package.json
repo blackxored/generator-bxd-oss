@@ -35,6 +35,9 @@
     }
   },
   "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/*.test.js"
+    ],
     "collectCoverageFrom": [
       "src/**/*.js",
       "!**/node_modules/**",
@@ -45,9 +48,11 @@
     "babel": true
   },
   "devDependencies": {
-    "@commitlint/cli": "^4.2.2",
-    "@commitlint/config-angular": "^3.1.1",
+    "@commitlint/cli": "^5.2.5",
+    "@commitlint/config-conventional": "^5.2.3",
     "all-contributors-cli": "^4.6.0",
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.0.0",
     "babel-eslint": "^7.2.3",
     "babel-preset-env": "^1.6.0",
     "babel-jest": "21.0.0",
