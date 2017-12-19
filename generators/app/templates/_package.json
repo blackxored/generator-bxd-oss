@@ -67,6 +67,9 @@
   "quokka": {
     "babel": true
   },
+  "repository": {
+    "url": "https://github.com/<%= username %>/<%= moduleName%>"
+  },
   "dependencies": {
     "in-publish": "^2.0.0"
   },
