@@ -54,7 +54,7 @@ module.exports = class extends Generator {
         name: 'shouldCreateRepo',
         message: 'Do you want to create a repository on Github?',
         default: true,
-      }
+      },
     ]).then(props => {
       this.props = props;
 
@@ -113,7 +113,8 @@ module.exports = class extends Generator {
     }
     this.spawnCommand('semantic-release-cli', [
       'init',
-      '--gh-username', this.props.username,
+      '--gh-username',
+      this.props.username,
     ]);
   }
 };
