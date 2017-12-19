@@ -39,6 +39,18 @@ Then install this generator:
 yarn global generator-bxd-oss
 ```
 
+Add `semantic-release-cli`:
+
+```shell
+yarn global add semantic-release-cli
+```
+
+Install [hub](https://github.com/github/hub) (if you want this generator to be able to create repositories for you):
+
+```shell
+brew install hub
+```
+
 Then switch to the directory where you want to generate a new project, and run:
 
 ```shell

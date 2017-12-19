@@ -48,6 +48,12 @@ module.exports = class extends Generator {
         name: 'umdBuild',
         message: 'Do you want to release a UMD build (for the browser)?',
         default: false,
+      },
+      {
+        type: 'confirm',
+        name: 'shouldCreateRepo',
+        message: 'Do you want to create a repository on Github?',
+        default: true,
       }
     ]).then(props => {
       this.props = props;
@@ -102,5 +108,12 @@ module.exports = class extends Generator {
     ]);
 
     this.spawnCommand('flow', ['init']);
+    if (this.props.shouldCreateRepo) {
+      this.spawnCommandSync('hub', ['create']);
+    }
+    this.spawnCommand('semantic-release-cli', [
+      'init',
+      '--gh-username', this.props.username,
+    ]);
   }
 };
