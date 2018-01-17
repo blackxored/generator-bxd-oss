@@ -90,6 +90,7 @@ module.exports = class extends Generator {
       JSON.stringify(sortPackageJson(this.fs.readJSON(pkgJsonPath)), null, 2)
     );
     mv('all-contributorsrc', '.all-contributorsrc');
+    mv('_babelrc', '.babelrc');
     mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md');
     mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md');
   }
