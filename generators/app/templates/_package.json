@@ -44,7 +44,7 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80",
+      "prettier",
       "git add",
       "jest --bail --findRelatedTests"
     ]
@@ -79,7 +79,7 @@
     "all-contributors-cli": "^4.6.0",
     "babel-cli": "^6.0.0",
     "babel-core": "^6.0.0",
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.1",
     "babel-preset-env": "^1.6.0",
     "babel-jest": "21.0.0",
     "commitizen": "^2.9.6",

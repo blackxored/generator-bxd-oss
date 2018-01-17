@@ -41,7 +41,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write --trailing-comma es5 --tab-width 2 --single-quote --print-width 80"
+      "eslint --fix"
     ]
   },
   "config": {
@@ -59,10 +59,11 @@
     "@commitlint/cli": "^5.2.5",
     "@commitlint/config-conventional": "^5.2.3",
     "all-contributors-cli": "^4.6.0",
+    "babel-eslint": "^8.2.1",
     "commitizen": "^2.9.6",
-    "eslint": "^4.6.1",
+    "eslint": "^4.10.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.4.0",
+    "eslint-config-prettier": "2.4.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jest": "^21.3.2",
     "eslint-plugin-prettier": "^2.2.0",
