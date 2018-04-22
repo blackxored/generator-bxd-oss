@@ -2,3 +2,4 @@ node_modules
 coverage
 dist
 app/templates/wallaby.config.js
+wallaby.config.js
