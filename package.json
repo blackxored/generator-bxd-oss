@@ -41,7 +41,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix"
+      "eslint --fix",
+      "jest --bail --findRelatedTests"
     ]
   },
   "config": {
