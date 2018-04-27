@@ -1,5 +1,7 @@
 # generator-bxd-oss
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blackxored/generator-bxd-oss.svg)](https://greenkeeper.io/)
+
 > A generator for my open source projects
 
 [![Semantically Released][semantic-release-badge]][semantic-release]
